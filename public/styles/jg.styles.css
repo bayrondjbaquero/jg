@@ -1,0 +1,78 @@
+/* Estilos para los formularios */
+.etiqueta-span-40 {width: 40px;}
+.etiqueta-span-60 {width: 60px;}
+.etiqueta-span-100 {width: 100px;}
+.etiqueta-span-150 {width: 150px;}
+.etiqueta-span-200 {width: 200px;}
+.etiqueta-span-auto {width: auto;}
+
+table input,
+table textarea,
+table select {
+	border: none; 
+	background: white;
+	width: 100%;
+	margin: 0px !important; 
+	padding: 5px;
+}
+
+textarea {padding: 10px;}
+
+th label, td label {background: none; color:#d16d30; margin: 0 0 0 5px; }
+table {margin: 50px 0 0 0; border-radius: 10px 10px 0 0;}
+caption {margin: 0; font-size: 24px; color: white; background: #d16d30; padding:3px 0 8px 15px; border-radius: 10px 10px 0 0;}
+.firma_dr, .firma_iz {width: 50%; height: auto; float: left;}
+
+.consecutivo { padding: 3px; text-align: center; }
+
+.panel .table td,
+.panel .table th {
+	border-top: none;
+	padding: 0px;
+}
+.table thead>tr>th,
+.table tbody>tr>th,
+.table tfoot>tr>th,
+.table thead>tr>td,
+.table tbody>tr>td,
+.table tfoot>tr>td {
+	padding: 0px; 
+}
+
+.select-multiple {
+	text-align: center;
+	border:solid 1px #d16d30;
+}
+
+.etiqueta{ background: #d16d30; color:white; text-align: center; padding: 2px 5px; }
+.etiqueta td strong { padding: 2px 5px; }
+.input{background: white; padding: 0;}
+.input input { padding: 5px; margin: 0 0 0 10px; }
+
+.informacion-cliente select,
+.informacion-cliente input {
+	height: 30px;
+	padding: 0px 5px;
+	background: none;
+	border: none;
+	margin: -15px 0 0 0;
+	font-size: 15px;
+	width: 100%;
+}
+/****/
+
+
+/* Estilos para los textos y headings */
+h4,h5,h6 {text-align: center;}
+/****/
+
+/* Estilos para fondos */
+.panel {
+	margin-bottom: 20px;
+	border: none;
+	border-radius: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	background: none;
+}
+/****/
